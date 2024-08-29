@@ -2,12 +2,8 @@
 import subprocess
 import argparse
 
-class 
-
 def run_command(command):
-    result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    print(result.stdout.decode('utf-8'))
-    if result.stderr: print(result.stderr.decode('utf-8'))
+    print(command + " was printed!")
 
 def main():
     parser = argparse.ArgumentParser(description="Run terminal commands from Python.")

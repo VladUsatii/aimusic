@@ -3,6 +3,5 @@
 To run the project, do:
 
 ```
-chmod +x main.py
-./main.py "this is the music prompt"
+python3 main.py "this is the music prompt"
 ```
